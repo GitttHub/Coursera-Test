@@ -1,3 +1,17 @@
+h1 {text-align: center;}
 body {
-	background-color: green;
+	background-color: red;
+}
+h2 {
+	border-style: solid;
+	border-color: blue;
+	background-color: grey
+	}
+div {
+	font-size: 16px;
+}
+footer p {text-align: center;}
+{
+	color: green;
+	font-size: 40px
 }
