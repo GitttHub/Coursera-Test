@@ -1,17 +1,60 @@
+*{
+	box-sizing: border-box;
+}
 h1 {text-align: center;}
 body {
-	background-color: red;
+	background-color: white;
 }
-h2 {
-	border-style: solid;
-	border-color: blue;
-	background-color: grey
+p {
+	width: 31.5%;
+	border: 1px solid black; 
+	margin: 10px;
+	float: left;
+	padding: 30px;
+}
+#p1 {
+	background-color: #F5CBBD; 
+}
+#p2 {
+	background-color: #DEB887
+}
+#p3 {
+	background-color: yellow
+}
+section{
+	clear: left;
+}
+#name {
+	color: blue;
+}
+}
+#container {align-content: right;
+
+}
+/************** Large devices only ***********/
+@media (min-width: 992px;) {
+	#p1 {
+		width: 33.3%}
+	#p2 {
+		width: 33.3%}
+	#p3 {
+		width: 33.3%}
 	}
-div {
-	font-size: 16px;
-}
-footer p {text-align: center;}
-{
-	color: green;
-	font-size: 40px
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#p1 {
+		width: 47%}
+	#p2 {
+		width: 47%}
+	#p3 {
+		width: 96.4%}
+	}
+
+@media (max-width: 767px) {
+	#p1 {
+		width: 97%}
+	#p2 {
+		width: 97%}
+	#p3 {
+		width: 97%; align-content: center;}
 }
